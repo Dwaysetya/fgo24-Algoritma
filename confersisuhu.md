@@ -51,14 +51,25 @@ output --> x
 output --> x
 output --> x
 
+```
 
+```pseudocode
 
+// program konversi suhu
 
+DECLARE Celcius: REAL
+DECLARE Kelvin: REAL
+DECLARE Fahrenheit: REAL
+DECLARE Reamur: REAL
 
+INPUT Celcius
 
+kelvin <- celcius + 273
+Fahrenheit <- (9/5 x Celcius) + 32
+REamur <- 4/5 * Celcius
 
-
-
-
+OUTPUT "Hasil konversi suhu C ke K adalah :", Kelvin
+OUTPUT "Hasil konversi suhu C ke F adalah:", Fahrenheit
+OUTPUT "Hasil konversi suhu C ke R adalah :", Reamur
 
 ```
