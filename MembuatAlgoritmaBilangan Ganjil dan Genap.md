@@ -2,18 +2,6 @@
 
 This is a bare minimum usage of algoritma, according to mini task on **Day 2** (15/042025)
 
-## Algoritma menentukan bilangan ganjil dan genap
-
-1. mulai
-2. masukkan nilai x
-3. apabila nilai x % 2 == 0
-4. maka sebut angka tersebut sebagai bilangan genap
-5. jika bukan
-6. maka sebut angka tersebut sebagai bilangan ganjil
-7. selesai
-
-## yang benar
-
 1. Mulai
 2. Tentukan angka
 3. Jika angka habis dibagi 2, maka
