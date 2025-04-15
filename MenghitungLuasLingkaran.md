@@ -20,8 +20,8 @@ flowchart TB
  a@{ shape: circle, label: "Start" }
  b@{ shape: lean-r, label: "jari-jari = r" }
  c@{ shape: diamond, label: "r % 7 == 0" }
- d@{ shape: lean-r, label: "22/7" }
- e@{ shape: lean-r, label: "3.14" }
+ d@{ shape: lean-r, label: " phi = 22/7" }
+ e@{ shape: lean-r, label: "phi = 3.14" }
  f@{ shape: rect, label: " hitung luas
  phi x r x r" }
  g@{ shape: rect, label: "hitung keliling
@@ -52,7 +52,7 @@ DECLARE keliling: REAL
 
 INPUT r
 
-IF r%7== 0 THEN
+IF r MOD 7== 0 THEN
     phi <-- 22/7
 ELSEIF
     phi <-- 3.14
