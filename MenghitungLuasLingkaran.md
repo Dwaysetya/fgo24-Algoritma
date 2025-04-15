@@ -17,7 +17,7 @@ This is a bare minimum usage of algoritma, according to mini task on **Day 2** (
 ```mermaid
 flowchart TB
 
- a@{ shape: circle, label: "Start" }
+ a@{ shape: circle, label: "Mulai" }
  b@{ shape: lean-r, label: "jari-jari = r" }
  c@{ shape: diamond, label: "r % 7 == 0" }
  d@{ shape: lean-r, label: " phi = 22/7" }
@@ -53,13 +53,13 @@ DECLARE keliling: REAL
 INPUT r
 
 IF r MOD 7== 0 THEN
-    phi <-- 22/7
+    phi <- 22/7
 ELSEIF
-    phi <-- 3.14
+    phi <- 3.14
 ENDIF
 
-luas <-- r x phi x r x r
-keliling <-- r x 2 x phi x r
+luas <- r x phi x r x r
+keliling <- r x 2 x phi x r
 
 OUTPUT "hasil dari luas lingkaran adalah:", luas
 OUTPUT "hasil dari keliling lingkaran adalah:", keliling
