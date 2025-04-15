@@ -41,3 +41,20 @@ flowchart LR
 
 
 ```
+
+```Pseudocode
+
+// Ganjil Genap
+
+DECLARE x : INT
+DECLARE RESULT : INT
+
+INPUT x
+
+IF  x%2==0  THEN
+    RESULT <-- "Genap"
+ELSE
+    RESULT <-- "Ganjil"
+ENDIF
+
+```
