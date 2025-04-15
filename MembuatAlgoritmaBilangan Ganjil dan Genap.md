@@ -24,7 +24,7 @@ This is a bare minimum usage of algoritma, according to mini task on **Day 2** (
 
 ```mermaid
 flowchart TD
-    A@{ shape: circle, label: "Mulai" } --> 1A@{ shape: rect, label: "Tentukan angka " } -->
+    A@{ shape: circle, label: "Mulai" } --> 1A@{ shape: lean-r, label: "masukkan angka" } -->
     2A@{ shape: diamond, label: "2 % 2 = 0" } --> |benar/ bisa| 3A@{ shape: lean-r, label: "Genap" } --> 5A@{ shape: dbl-circ, label: "Selesai" }
     2A@{ shape: diamond, label: "2 % 2 = 0" } --> |salah/can't| 4A@{ shape: lean-r, label: "Ganjil" } --> 5A@{ shape: dbl-circ, label: "Selesai" }
 
