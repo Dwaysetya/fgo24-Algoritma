@@ -53,7 +53,7 @@ INPUT x
 
 IF  x%2==0  THEN
     RESULT <-- "Genap"
-ELSE
+ELSEIF
     RESULT <-- "Ganjil"
 ENDIF
 
