@@ -6,6 +6,7 @@ This is a bare minimum usage of algoritma, according to mini task on **Day 2** (
 
 1. Mulai
 1. masukkan suhu sebagai "c"
+1. jika "typeof" == "number", maka
 1. masukkan tipe konversi yang di pilih sebagai "type"
 1. jika "type" diisikan "f", maka
 1. hitung "result" dengan (9/5 x c) + 32
