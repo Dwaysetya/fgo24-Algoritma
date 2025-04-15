@@ -3,7 +3,7 @@
 This is a bare minimum usage of algoritma, according to mini task on **Day 2** (15/042025)
 
 1. Mulai
-2. Tentukan angka
+2. Tentukan nilai x
 3. Jika angka habis dibagi 2, maka
 4. Angka tersebut adalah genap
 5. Jika tidak, maka
